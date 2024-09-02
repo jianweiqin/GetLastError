@@ -10,7 +10,7 @@
  */
 
 const ffi = require("ffi-napi");
-const getLastError = require("getLastError");
+const getLastError = require("get-last-error");
 
 const user32 = ffi.Library("user32.dll", {
 	LoadIconA: ["size_t"/* HICON */, [

@@ -1,5 +1,5 @@
 if ("win32" !== process.platform) {
-	console.warn("[getLastError] This library is Windows-only. Calling it in other platform will always return 0.");
+	console.warn("[GetLastError] This library is Windows-only. Calling it in other platform will always return 0.");
 	module.exports = () => 0;
 } else {
 	const addon = require("./" + process.arch + "/GetLastError");
