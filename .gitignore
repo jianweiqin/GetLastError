@@ -1,0 +1,14 @@
+.svn
+.git
+.idea
+.vs
+*.user
+*.filters
+
+bin
+obj
+Debug
+Release
+
+/binding.gyp
+/config.gypi

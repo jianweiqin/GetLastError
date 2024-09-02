@@ -1,0 +1,32 @@
+{
+	"name": "get-last-error",
+	"version": "1.0.0",
+	"description": "Calls the windows `GetLastError` function when failed calling other functions with `ffi-napi` library.",
+	"main": "./src/index.js",
+	"exports": "./src/index.js",
+	"scripts": {
+		"test": "node tests/test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jianweiqin/GetLastError"
+	},
+	"keywords": [
+		"getlasterror", "get last error", "last error", "error",
+		"win32", "windows",
+		"dll", "ffi"
+	],
+	"author": "Jianwei Qin <304586351@qq.com>",
+	"license": "MIT",
+	"gypfile": true,
+	"bugs": {
+		"url": "https://github.com/jianweiqin/GetLastError"
+	},
+	"homepage": "https://github.com/jianweiqin/GetLastError",
+	"os": [
+		"win32"
+	],
+	"devDependencies": {
+		"ffi-napi": "^4.0.3"
+	}
+}
